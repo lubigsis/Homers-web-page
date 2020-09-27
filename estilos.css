@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #99D1EA;
+}
+
+main{
+    width: 100%;
+}
+
+.contenedor{
+    margin: auto;
+    width: 100%;
+    max-width: 1210px;
+    height: 500px;
+    position: relative; /*defino este elemento c/posición relativa p/q en base a éste los demás elementos hijos se posicionen*/
+    
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;    
+    background: rgb(38, 37, 37);
+}
+
+footer p{
+    padding: 7px;
+    text-align: center;
+}
+footer p a{
+    font-size: 20px;
+    color: rgb(234, 234, 19);
+    text-decoration: none;
+}
+
+footer p a:hover{
+    background: rgb(16, 224, 16);
+    cursor: pointer;
+    color: rgb(248, 10, 129);
+    font-weight: bolder;
+
+}
+
+h1{
+    font-family: sans-serif;
+    font-weight: bolder;
+    color:rgb(0, 0, 0);
+    font-size: 38px;
+    text-align: center;
+    padding-top: 8px;
+    width: 100%;
+}
+
+.contenedor .hijo img{
+    width: 100%;
+    height: auto;
+}
+
+/*............................Posicionamiento..................................*/
+.jebus{
+    position: absolute;
+    top: 50px;
+    left: 40%;
+
+}
+
+.reloj60{
+   position: absolute;
+   top: 320px;
+   left: 330px;
+}
+
+.reloj30-1{
+    position: absolute;
+    top:25px;
+    left:40px;
+    width: 50px;
+    height: 50px;
+}
+
+.reloj30-2{
+    position: absolute;
+    top:360px;
+    left:1100px;
+    width: 50px;
+    height: 50px;
+}
+
+.gusano1{
+    position: absolute;
+    top:100px;
+    left:0px;
+    width: 100px;
+    height: 100px;
+}
+
+.gusano2{
+    position: absolute;
+    top:440px;
+    left:0px;
+    width: 100px;
+    height: 100px;
+}
+
+.gusano3{
+    position: absolute;
+    top:440px;
+    left:220px;
+    width: 100px;
+    height: 100px;
+}
+
+.gusano4{
+    position: absolute;
+    top:70px;
+    left:820px;
+    width: 100px;
+    height: 100px;
+}
+
+.tostadora100-1{
+    position:absolute;
+    top: 250px;
+    left:0;
+   
+}
+
+.tostadora100-2{
+    position:absolute;
+    top: 380px;
+    left:820px;
+    width: 145px;
+    height: 115px;
+}
+
+.tostadora70-1{
+    position:absolute;
+    top:70px;
+    left:180px;
+}
+
+.tostadora70-2{
+    position:absolute;
+    top:70px;
+    left:1010px;
+}
+
+.boca1{
+    position: absolute;
+    top:180px;
+    left:190px;
+    width: 130px;
+    height: 130px;
+}
+
+.boca2{
+    position: absolute;
+    top:170px;
+    left:1050px;
+    width: 110px;
+    height: 110px;
+}
+
+.campana60{
+    position:absolute;
+    top:380px;
+    left:100px;
+}
+
+.campana80{
+    position:absolute;
+    top:210px;
+    left:830px;
+}
+
+/*.............................@mediaqueries................................*/
+
+@media screen and  (max-width: 400 px){
+    .contenedor{
+        width: 100%;
+    }
+}
